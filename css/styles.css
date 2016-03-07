@@ -43,6 +43,11 @@ body {
     background-color: rgba(0, 0, 0, 0.57);
 }
 
+hr {
+	margin: 0;
+	
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
