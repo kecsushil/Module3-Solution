@@ -1,9 +1,12 @@
 body {
 	font-size: 16px;
 	font-family: 'Oxygen', sans-serif;
+	background-color: #C53737;
 }
 
-
+.navbar {
+	border-radius: 0;
+}
 
 .navbar-brand {
 	font-size: 2em;
@@ -23,8 +26,21 @@ body {
 
 #menu-items p {
 	padding: 0 15px 10px 15px;
+	margin-top: 10px;
 }
 
+#menu-dropdown {
+	background-color: #E88080;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #0D0D0D;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #CC1C1C;
+    background-color: rgba(0, 0, 0, 0.57);
+}
 
 
 /* Extra small devices (phones, less than 768px) */
